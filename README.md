@@ -1,5 +1,4 @@
-""" Basic Explanation of the RAG Model in This Implementation
-This Retrieval-Augmented Generation (RAG) model is designed to process dialysis patient data from a CSV file and allow users to query the data using a chatbot interface.
+Retrieval-Augmented Generation (RAG) model is designed to process a data from a CSV file and allow users to query the data using a chatbot interface.
 
 🔹 How It Works
 1️⃣ Data Loading: The system reads and processes the CSV file using pandas.
