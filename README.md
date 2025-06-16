@@ -78,10 +78,15 @@ Real-time Processing: Shows retrieved documents and their sources.
  - Overall Flow of the Model
  
 1️⃣ User uploads a CSV file → The data is loaded.
+
 2️⃣ FAISS creates a vector store → Data is split into chunks and embedded.
+
 3️⃣ User enters a query → FAISS retrieves the most relevant text.
+
 4️⃣ LLM generates an answer → The retrieved context is used to generate a response.
+
 5️⃣ Chatbot displays the answer → The result is shown to the user.
+
 
 - Why is This Model Powerful?
  Faster than traditional text searches (Uses FAISS for rapid retrieval).
