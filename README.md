@@ -2,11 +2,15 @@ Retrieval-Augmented Generation (RAG) model is designed to process a data from a 
 
 - How It Works
 
-1️⃣ Data Loading: The system reads and processes the CSV file using pandas.
-2️⃣ Vector Database Creation (FAISS): The text data is converted into embeddings and stored in a FAISS index for fast retrieval.
-3️⃣ Query Handling: When a user asks a question, the model retrieves relevant documents from FAISS.
-4️⃣ Response Generation (LLM): The retrieved information is passed to an LLM (Large Language Model) to generate a natural language answer.
-5️⃣ Chatbot UI (Streamlit): A user-friendly chatbot interface is built using Streamlit, allowing conversational interaction with the dataset.
+1️ Data Loading: The system reads and processes the CSV file using pandas.
+
+2️ Vector Database Creation (FAISS): The text data is converted into embeddings and stored in a FAISS index for fast retrieval.
+
+3️ Query Handling: When a user asks a question, the model retrieves relevant documents from FAISS.
+
+4️ Response Generation (LLM): The retrieved information is passed to an LLM (Large Language Model) to generate a natural language answer.
+
+5️ Chatbot UI (Streamlit): A user-friendly chatbot interface is built using Streamlit, allowing conversational interaction with the dataset.
 
 
 - Technologies & Models Used
