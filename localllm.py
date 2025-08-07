@@ -10,7 +10,7 @@ load_dotenv()
 # Configuration
 LANGSMITH_TRACING = True
 LANGSMITH_ENDPOINT = "https://api.smith.langchain.com"
-LANGSMITH_API_KEY = "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"
+LANGSMITH_API_KEY = " "
 LANGSMITH_PROJECT = "pr-bumpy-colon-8"
 
 # Initialize OllamaLLM
@@ -47,5 +47,6 @@ documents = loader.load()
 # Chunk data
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50) # Adjust chunk size
 chunks = text_splitter.split_documents(documents)
+
 
 # Now use 'chunks' to create your vector database as before.
